@@ -1,0 +1,1 @@
+sudo /usr/bin/dmesg -w   退出conda

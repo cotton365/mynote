@@ -1,0 +1,47 @@
+{
+  "camera": {
+    "index": 0,
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "auto_exposure": 1,
+    "exposure": 0,
+    "auto_wb": 1,
+    "wb_temperature": 4600,
+    "brightness": 128,
+    "contrast": 128,
+    "saturation": 160,
+    "gain": 0,
+    "sharpness": 128,
+    "gamma": 100,
+    "backlight": 0,
+    "powerline": 50
+  },
+  "preprocessing": {
+    "clahe_clip": 2.5,
+    "clahe_tile": 8,
+    "blur_ksize": 5,
+    "wb_correction": false,
+    "wb_bgr_gain": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "hsv": {
+    "target": {
+      "h_lo": 106,
+      "h_hi": 180,
+      "s_lo": 0,
+      "s_hi": 9,
+      "v_lo": 250,
+      "v_hi": 255
+    }
+  },
+  "morphology": {
+    "min_area": 352,
+    "dilate_iter": 2,
+    "erode_iter": 2,
+    "kernel_size": 21
+  }
+}

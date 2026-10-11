@@ -1,0 +1,70 @@
+{
+  "camera": {
+    "index": 0,
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "auto_exposure": 1,
+    "exposure": 0.0,
+    "auto_wb": 0,
+    "wb_temperature": 4210,
+    "brightness": 6,
+    "contrast": 38,
+    "saturation": 67,
+    "gain": 0,
+    "sharpness": 0,
+    "gamma": 100,
+    "backlight": 0,
+    "powerline": 50
+  },
+  "preprocessing": {
+    "clahe_clip": 0.1,
+    "clahe_tile": 8,
+    "blur_ksize": 5,
+    "wb_correction": true,
+    "wb_bgr_gain": [
+      1.0132,
+      1.0,
+      1.0043
+    ]
+  },
+  "hsv": {
+    "red1": {
+      "h_lo": 0,
+      "h_hi": 13,
+      "s_lo": 36,
+      "s_hi": 255,
+      "v_lo": 58,
+      "v_hi": 255
+    },
+    "red2": {
+      "h_lo": 164,
+      "h_hi": 180,
+      "s_lo": 71,
+      "s_hi": 160,
+      "v_lo": 113,
+      "v_hi": 242
+    },
+    "green": {
+      "h_lo": 73,
+      "h_hi": 90,
+      "s_lo": 38,
+      "s_hi": 114,
+      "v_lo": 109,
+      "v_hi": 167
+    },
+    "blue": {
+      "h_lo": 86,
+      "h_hi": 137,
+      "s_lo": 89,
+      "s_hi": 255,
+      "v_lo": 93,
+      "v_hi": 255
+    }
+  },
+  "morphology": {
+    "open_ksize": 3,
+    "close_ksize": 5,
+    "min_area": 500
+  }
+}
